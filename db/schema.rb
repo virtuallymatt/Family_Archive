@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180228170834) do
+=======
+ActiveRecord::Schema.define(version: 20180228174524) do
+>>>>>>> upstream/master
 
   create_table "photos", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -19,6 +23,11 @@ ActiveRecord::Schema.define(version: 20180228170834) do
     t.string "image_content_type"
     t.integer "image_file_size"
     t.datetime "image_updated_at"
+<<<<<<< HEAD
+=======
+    t.string "description"
+    t.string "title"
+>>>>>>> upstream/master
   end
 
 end
